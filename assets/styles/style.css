@@ -23,7 +23,7 @@ main{
 }
 
 section{
-    margin-top: 60px;
+    margin-top: 4rem;
 }
 /* nav section style */
 nav{
@@ -45,7 +45,7 @@ nav, nav ul{
 
 .search input{
     padding: .75rem 1.75rem;
-    width: 500px;
+    width:500px;
     border-radius: 66px;
     font-size: 1rem;
     font-weight: 500;
@@ -73,6 +73,17 @@ ul li a{
     font-weight: 500;
     color: #707070;
     margin-left: 1.5rem;
+}
+
+/* toggle button create */
+.menu{
+    display: none;
+}
+.solid{
+    height: 2px;
+    width: 16px;
+    background: #1f1f1f;
+    margin-bottom: 4px;
 }
 
 /* hero section style */
@@ -115,7 +126,7 @@ button{
     border-radius: 6px;
     border: none;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 16px;
     cursor: pointer;
 }
  .hero-image{
@@ -125,6 +136,6 @@ button{
  }
 
  .hero-image img{
-    max-width: 402px;
-    max-height: 375px;
+    max-width: 25rem;
+    max-height: 23rem;
  }

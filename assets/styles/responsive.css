@@ -1,0 +1,61 @@
+/* laptop 1024px = 64rem */
+@media screen and (max-width:64rem) {
+    main{
+        max-width: 95% ;
+    }
+    html{
+        font-size: 75%;
+    }
+    .search input{
+        width: 300px;
+    }
+}
+
+/* tablet 768px = 48rem */
+@media screen and (max-width:48rem) {
+        html{
+        font-size: 60%;
+    }
+    .search input{
+        width: 300px;
+    }
+    nav ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+
+    figure img{
+        max-width: 80%;
+    }
+}
+
+/* mobile 576px = 36rem */
+@media screen and (max-width:36rem) {
+    main{
+        max-width: 90%;
+    }
+            html{
+        font-size: 55%;
+    }
+    .search{
+        display: none;
+    }
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-content h1{
+        font-size: 3rem;
+    }
+    button{
+        font-size: 12px;
+    }
+    .hero-content{
+        order: 2;
+    }
+
+    figure img{
+        max-width: 60%;
+    }
+}
