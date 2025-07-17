@@ -1,0 +1,130 @@
+/* font add */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/* universal selector */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    list-style: none;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+main{
+    max-width: 1212px;
+    margin: 0 auto;
+}
+
+section{
+    margin-top: 60px;
+}
+/* nav section style */
+nav{
+    max-width: 1124px;
+    margin: 0 auto;
+    margin-top: 3.2rem;
+}
+
+nav, nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    position: relative;
+    
+}
+
+.search input{
+    padding: .75rem 1.75rem;
+    width: 500px;
+    border-radius: 66px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    color: #CCCCCC;
+    background: #F1F1F1;
+    border: none;
+    outline: none;
+}
+
+.search input:focus{
+    color: black;
+}
+.search:focus-within svg{
+    display: none;
+}
+.search svg{
+    width: 1.2rem;
+    position: absolute;
+    top: .9rem;
+    right: 1.6rem;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+    margin-left: 1.5rem;
+}
+
+/* hero section style */
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.3rem 2.8rem;
+    background: #FEEAE9;
+    border-radius: 1rem;
+}
+
+.hero-content{
+    flex-basis: 50%;
+}
+.hero-content h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1f1f1f;
+    margin-bottom: .5rem;
+}
+.hero-content p{
+    margin-bottom: .5rem;
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4E4E4E;
+}
+.hero-content h4{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #FF136F;
+    margin-bottom: .5rem;
+}
+
+button{
+    padding: 1rem 1.7rem;
+    background: #FF136F;
+    border-radius: 6px;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+ .hero-image{
+    flex-basis: 50%;
+    text-align: right;
+
+ }
+
+ .hero-image img{
+    max-width: 402px;
+    max-height: 375px;
+ }
