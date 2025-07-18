@@ -16,52 +16,55 @@
 
 
 /* share tag */
-img{
+img {
     max-width: 100%;
 }
 
-.top{
+.top,
+.last {
     max-width: 1212px;
     margin: 0 auto;
 }
 
-section{
-    margin:auto;
+section {
+    margin: auto;
     margin-top: 4rem;
 
 }
 
 /* variable color */
-:root{
-    --herobg:#FEEAE9;
-    --primaryColor:#FF136F;
-    --headingColor:#1f1f1f;
-    --white:#ffffff;
-    --p:#4E4E4E;
-    --sbg:#F4F4F4;
+:root {
+    --herobg: #FEEAE9;
+    --primaryColor: #FF136F;
+    --headingColor: #1f1f1f;
+    --white: #ffffff;
+    --p: #4E4E4E;
+    --sbg: #F4F4F4;
 
 }
+
 /* nav section style */
-nav{
+nav {
     max-width: 1124px;
     margin: 0 auto;
     margin-top: 3.2rem;
 }
 
-nav, nav ul{
+nav,
+nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.search{
+.search {
     position: relative;
-    
+
 }
 
-.search input{
+.search input {
     padding: .75rem 1.75rem;
-    width:500px;
+    width: 500px;
     border-radius: 66px;
     font-size: 1rem;
     font-weight: 500;
@@ -72,19 +75,22 @@ nav, nav ul{
     outline: none;
 }
 
-.search input:focus{
+.search input:focus {
     color: var(--headingColor);
 }
-.search:focus-within svg{
+
+.search:focus-within svg {
     display: none;
 }
-.search svg{
+
+.search svg {
     width: 1.2rem;
     position: absolute;
     top: .9rem;
     right: 1.6rem;
 }
-ul li a{
+
+ul li a {
     font-size: 16px;
     font-weight: 500;
     color: #707070;
@@ -92,10 +98,11 @@ ul li a{
 }
 
 /* toggle button create */
-.menu{
+.menu {
     display: none;
 }
-.solid{
+
+.solid {
     height: 2px;
     width: 16px;
     background: var(--headingColor);
@@ -103,7 +110,7 @@ ul li a{
 }
 
 /* hero section style */
-.hero-container{
+.hero-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,31 +119,35 @@ ul li a{
     border-radius: 1rem;
 }
 
-.hero-content{
+.hero-content {
     flex-basis: 50%;
 }
-.hero-content h1{
+
+.hero-content h1 {
     font-size: 3.5rem;
     font-weight: 700;
     color: var(--headingColor);
     margin-bottom: .5rem;
 }
-.hero-content p{
+
+.hero-content p {
     margin-bottom: .5rem;
 }
-p{
+
+p {
     font-size: 1rem;
     font-weight: 400;
     color: var(--p);
 }
-h4{
+
+h4 {
     font-size: 2.5rem;
     font-weight: 500;
     color: var(--primaryColor);
     margin-bottom: .5rem;
 }
 
-button{
+button {
     padding: 1rem 1.7rem;
     background: var(--primaryColor);
     border-radius: 6px;
@@ -145,29 +156,31 @@ button{
     font-size: 16px;
     cursor: pointer;
 }
- .hero-image{
+
+.hero-image {
     flex-basis: 50%;
     text-align: right;
 
- }
+}
 
- .hero-image img{
+.hero-image img {
     max-width: 25rem;
     max-height: 23rem;
- }
+}
 
- /* category section style */
- .category-container, .product-container{
+/* category section style */
+.category-container,
+.product-container {
     max-width: 1124px;
- }
+}
 
- .title{
+.title {
     font-size: 2.25rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
- }
+}
 
- .categorys{
+.categorys {
     /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.7rem; */
@@ -176,97 +189,150 @@ button{
     justify-content: center;
     gap: 1.2rem;
     flex-wrap: wrap;
- }
+}
 
- .category-item{
+.category-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: .5rem 2.8rem;
-    background: linear-gradient(to right ,rgb(255, 156, 53),rgb(255, 208, 25));
+    background: linear-gradient(to right, rgb(255, 156, 53), rgb(255, 208, 25));
     height: 120px;
     width: 360px;
     border-radius: 1rem;
     color: var(--white);
- }
- .category-item:nth-child(2){
+}
+
+.category-item:nth-child(2) {
     background: linear-gradient(to right, rgb(255, 88, 155), rgb(255, 19, 111));
- }
- .category-item:nth-child(3){
+}
+
+.category-item:nth-child(3) {
     background: linear-gradient(to right, rgb(66, 137, 255), rgb(63, 7, 248));
- }
-.category-item h2{
+}
+
+.category-item h2 {
     font-weight: 500;
 }
- .category-item img{
+
+.category-item img {
     max-width: 30%;
- }
+}
 
 
- /* product section style */
- .middle{
+/* product section style */
+.middle {
     background: var(--sbg);
     padding-bottom: 50px;
     width: 100%;
- }
-.product-container{
+}
+
+.product-container {
     margin: 0 auto;
     padding-top: 50px;
 }
- .head{
+
+.head {
     display: flex;
     align-items: start;
     justify-content: space-between;
- }
- .head p{
+}
+
+.head p {
     font-size: 1.2rem;
     font-weight: 500;
     color: #FF9D00;
     cursor: pointer;
- }
+}
 
- .products{
+.products {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
- }
+}
 
- .product-items{
+.product-items {
     padding: 1.5rem;
     border-radius: 20px;
     background: var(--white);
     text-align: center;
- }
+}
 
- .product-image img{
+.product-image img {
     width: 50%;
- }
- .product-image{
+}
+
+.product-image {
     max-width: 276px;
     margin-bottom: 1.3rem;
- }
+}
 
- .product-content{
+.product-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1rem;
- }
+}
 
- .product-container button{
+.product-container button {
     background: var(--headingColor);
     width: 168px;
- }
+}
 
- .product-content h5{
+.product-content h5 {
     font-size: 1.5rem;
     font-weight: 600;
- }
+}
 
- .product-content h4{
+.product-content h4 {
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--headingColor);
+}
+
+/* last section style */
+.last {
+    background: var(--herobg);
+    padding: 9rem 16.5rem;
+    border-radius: 1rem;
+    margin-block: 4.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.last form{
+    display: flex;
+
+}
+.last form input {
+    width: 526px;
+    padding: 1.3rem 2.2rem;
+    background: var(--white);
+    color: #CCCCCC;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+.last h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: .2rem;
+}
+.last p{
+    margin-bottom: 1rem;
+}
+
+#send {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1.1rem 3rem;
+    border-radius: 0px 6px 6px 0px;
 }
