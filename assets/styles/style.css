@@ -309,7 +309,7 @@ button {
 
 }
 .last form input {
-    width: 526px;
+    width: 32rem  ;
     padding: 1.3rem 2.2rem;
     background: var(--white);
     color: #CCCCCC;

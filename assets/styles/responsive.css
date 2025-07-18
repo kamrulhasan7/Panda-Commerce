@@ -1,6 +1,6 @@
 /* laptop 1024px = 64rem */
 @media screen and (max-width:64rem) {
-    .top, .product-container{
+    .top, .product-container, .last{
         max-width: 95% ;
         margin: auto;
     }
@@ -36,7 +36,7 @@
 
 /* mobile 576px = 36rem */
 @media screen and (max-width:36rem) {
-    .top, .product-container{
+    .top, .product-container, .last{
         max-width: 90% ;
         margin: auto;
     }
@@ -69,5 +69,16 @@
     }
     .product-items button{
         width: auto;
+    }
+    .last{
+        padding: 5rem .2rem;
+        margin-bottom: 50px;
+    }
+    .last form input{
+        width: 20rem;
+        font-size: 1.3rem;
+    }
+    #send{
+        font-size: 1.3rem;
     }
 }
