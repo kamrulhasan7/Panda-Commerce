@@ -207,6 +207,7 @@ button{
  .middle{
     background: var(--sbg);
     padding-bottom: 50px;
+    width: 100%;
  }
 .product-container{
     margin: 0 auto;
@@ -232,14 +233,17 @@ button{
  }
 
  .product-items{
-    max-width: 360px;
     padding: 1.5rem;
     border-radius: 20px;
     background: var(--white);
     text-align: center;
  }
 
+ .product-image img{
+    width: 50%;
+ }
  .product-image{
+    max-width: 276px;
     margin-bottom: 1.3rem;
  }
 

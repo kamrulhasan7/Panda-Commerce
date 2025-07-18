@@ -1,7 +1,8 @@
 /* laptop 1024px = 64rem */
 @media screen and (max-width:64rem) {
-    main{
+    .top, .product-container{
         max-width: 95% ;
+        margin: auto;
     }
     html{
         font-size: 75%;
@@ -29,12 +30,15 @@
     figure img{
         max-width: 80%;
     }
+
+
 }
 
 /* mobile 576px = 36rem */
 @media screen and (max-width:36rem) {
-    main{
-        max-width: 90%;
+    .top, .product-container{
+        max-width: 90% ;
+        margin: auto;
     }
             html{
         font-size: 55%;
@@ -57,5 +61,13 @@
 
     figure img{
         max-width: 60%;
+    }
+
+    /* product section */
+    .products{
+        flex-direction: column;
+    }
+    .product-items button{
+        width: auto;
     }
 }
